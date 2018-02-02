@@ -1,0 +1,20 @@
+/* hide all those $-buttons that need an upgraded plan to work */
+
+/* Dollar Button in Timer Form */
+.TimerContainer__timerContainer .TimerForm__billable {
+    display: none;
+}
+/* Dollar Button in Time Entries List */
+.TimerContainer__timerContainer .TimeEntriesListItem__billable {
+    display: none;
+}
+/* Buttons in sidebar */
+.left-nav a[href="bookmarks"],
+.left-nav a[href="insights/projects"] {
+    display: none;
+}
+/* Same stuff for reports summary+detailed */
+.LegacyReportsContainer__root .for-reportbillable,
+.LegacyReportsContainer__root .billable-container {
+    display: none;
+}
