@@ -9,5 +9,6 @@
         "matches": ["https://toggl.com/app/*"],
         "css": ["styles.css"]
       }
-  ]
+  ],
+  "update_url": "http://www.example.com/update.xml"
 }
